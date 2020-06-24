@@ -5,7 +5,10 @@ biru='\033[34;1m'
 merah='\033[31;1m'
 kuning='\033[33;1m'
 
+ulang="y"
 
+while [ $ulang = "y" ]
+do
 
 echo -e "${merah}-------------------------------->
 |                                      |
@@ -17,10 +20,7 @@ echo -e "${merah}-------------------------------->
 | Whatssapp : +62-831-9552-1552        |
 | Tool Sejarah NAZI 卍卍
 ----------------------------------------"
-ulang="y"
 
-while [ $ulang = "y" ]
-do
  echo -e $hijau " TERIMA KASIH.. kepada Arya temanku "
  echo -e $biru " selamat datang di tools ini "
   echo -e $biru " 1. awal mula NAZI "
