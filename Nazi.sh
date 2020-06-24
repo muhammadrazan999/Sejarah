@@ -6,8 +6,8 @@ merah='\033[31;1m'
 kuning='\033[33;1m'
 
 ulang="y"
-
-
+while [ $ulang = "y" ]
+do
 
 echo -e "${merah}-------------------------------->
 |                                      |
@@ -20,16 +20,13 @@ echo -e "${merah}-------------------------------->
 | Tool Sejarah NAZI 卍卍
 ----------------------------------------"
 
-while [ $ulang = "y" ]
-do
-
  echo -e $hijau " TERIMA KASIH.. kepada Arya temanku "
  echo -e $biru " selamat datang di tools ini "
   echo -e $biru " 1. awal mula NAZI "
    echo -e $biru " 2. pemimpin pemimpin NAZI "
    echo -e $biru "3. perbedaan Socialist dan communist"
     echo -e $biru "4. keluar/ga jadi "
-read -p $hijau " pilih sebelah sini ===> : " pilih ;
+read -p " pilih sebelah sini ===> : " pilih ;
 
 if [ $pilih = "1" ] ;
     then
