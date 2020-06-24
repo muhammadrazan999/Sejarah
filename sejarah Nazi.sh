@@ -43,25 +43,25 @@ echo $ulang
 
 elif [ $pilih = "2" ];
     then
-echo " 卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍"
-echo -e $merah " fuhrer/kanselir : adolf hitler "
-echo -e  $hijau " kepala SA : Heinrich Himmler "
-echo -e  $merah " kepala SS : Reinhard Heydrich "
-echo -e $biru  " divisi Tank : Manstein "
-echo -e  $merah " angkatan udara : Goering "
-echo -e  $biru  " angkatan laut : karl Donitz "
-echo " 卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍"
+echo " 卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍"
+echo -e $merah " fuhrer/kanselir : adolf hitler        卍"
+echo -e  $hijau " kepala SA : Heinrich Himmler         卍"
+echo -e  $merah " kepala SS : Reinhard Heydrich        卍"
+echo -e $biru  " divisi Tank : Manstein                卍"
+echo -e  $merah " angkatan udara : Goering             卍"
+echo -e  $biru  " angkatan laut : karl Donitz          卍"
+echo " 卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍"
 sleep 3
   echo $ulang
   
 elif [ $pilih = "3" ];
 then
-echo -e $hijau " 卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍"
+echo -e $hijau " 卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍"
 echo -e $kuning " PERBEDAAN KOMUNISME DAN SOSIALICST"
 echo -e $hijau " Dibawah komunisme, tidak ada yang namanya milik pribadi, semua properti dimiliki bersama, dan setiap orang menerima bagian berdasarkan apa yang mereka butuhkan. Pemerintah pusat memgendalikan semua aspek produksi ekonomi, dan menyediakan kebutuhan dasar warga negara, termasuk makanan, perumahan, perawatan medis, dan pendidikan. Sebaliknya, di bawah sosialisme, individu masih dapat memiliki properti, tetapi produksi industri, atau sarana utama untuk menghasilkan kekayaan, dimiliki dan dikelola secara komunal oleh pemerintah yang dipilih secara demokratis."
 echo -e $kuning " Perbedaan utama lainnya antara sosialisme dan komunisme adalah cara untuk mencapainya. Dalam komunisme, sebuah revolusi kekerasan di mana kaum buruh bangkit melawan kelas menengah dan dipandang menghalangi untuk mencapai negara komunis murni. Sedangkan Sosialisme adalah ideologi yang kurang kaku, lebih fleksibel. Para penganut Sosialisme mencari perubahan dan reformasi, tetapi bersikeras untuk membuat perubahan ini melalui proses demokratis dalam struktur sosial dan politik yang ada, bukan menggulingkan struktur itu."
 echo -e $hijau " Tidak seperti komunisme, sistem ekonomi sosialis menghargai upaya dan inovasi individu. Demokrasi sosial, bentuk paling umum dari sosialisme modern, berfokus pada pencapaian reformasi sosial dan redistribusi kekayaan melalui proses demokrasi, dan dapat hidup berdampingan bersama ekonomi kapitalis pasar bebas."
-echo -e $hijau " 卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍"
+echo -e $hijau " 卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍卍"
 sleep 1
  echo $ulang
  elif [ $pilih = "4" ];
